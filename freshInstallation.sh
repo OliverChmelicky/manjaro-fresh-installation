@@ -38,7 +38,9 @@ sudo systemctl start docker.service
 echo "Enabeling docker"
 sudo systemctl enable docker.service
 echo "Changing usermod for docker"
+sudo groupadd docker
 sudo usermod -aG docker $USER
+newgrp docker
 
 #docker-compose
 echo "Installing docker-compose"
