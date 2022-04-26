@@ -6,8 +6,6 @@ echo "Installing base-devel package"
 sudo pacman -S --needed base-devel
 
 # installing yay package manager for AUR packages
-echo "Installing GIT"
-sudo pacman -S git
 echo "Clonning yay"
 git clone https://aur.archlinux.org/yay.git
 cd yay
