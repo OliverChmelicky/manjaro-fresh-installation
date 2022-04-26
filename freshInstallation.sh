@@ -43,6 +43,8 @@ sudo usermod -aG docker $USER
 newgrp docker
 
 #docker-compose
+echo "Installing docker-compose prerequisities"
+sudo pacman -S libxcrypt-compat
 echo "Installing docker-compose"
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 echo "Changing permissions for docker-compose binnary"
@@ -50,3 +52,4 @@ sudo chmod +x /usr/local/bin/docker-compose
 echo "Creating simplink for docker-compose"
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
+sudo pacman -Syu python-pip
