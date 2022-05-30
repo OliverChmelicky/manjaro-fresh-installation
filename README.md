@@ -13,6 +13,7 @@ TODO - find pre manjaro
 
 
 Download "Extensions" and there you can click on extensions which to turn on.
+[removable Drive menu, auto move windows]
 
 Shortcuts: 
 ctr+alt+t - terminal
