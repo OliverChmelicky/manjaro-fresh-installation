@@ -18,7 +18,7 @@ sudo rm -r yay
 echo "Installing jetbrains-toolbox"
 yay -S jetbrains-toolbox
 echo "Installing brave"
-yay -S brave
+yay -S brave-browser
 echo "Installing chromium"
 yay -S chromium
 echo "Installing terraform"
@@ -51,3 +51,10 @@ echo "Creating simplink for docker-compose"
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 sudo pacman -Syu python-pip
+
+# snapd nad guake
+sudo pacman -S snapd
+sudo systemctl enable --now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
+sudo snap install guake --edge # why edge - https://snapcraft.io/install/guake/manjaro
+
