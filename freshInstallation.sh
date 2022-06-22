@@ -53,4 +53,6 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 sudo pacman -Syu python-pip
 
 #guake
-sudo pacman -S guake
+sudo pacman -S guake # and set it up for shortcut
+sudo pacman -S wine
+sudo pacman -S wine-mono
