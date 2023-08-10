@@ -56,3 +56,5 @@ sudo pacman -Syu python-pip
 sudo pacman -S guake # and set it up for shortcut
 sudo pacman -S wine
 sudo pacman -S wine-mono
+
+pamac install pdfarranger
