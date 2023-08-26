@@ -6,6 +6,7 @@
 TODO install Golang
 
 Testing extensions if they are good:
+Removable drive menu, clipboard indicator 
 
 
 NetSpeed:
