@@ -25,8 +25,11 @@ echo "Installing terraform"
 yay -S terraform
 echo "Installing telegram-desktop"
 yay -S telegram-desktop
+
 echo "Installing poetry"
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+echo "Installing Signal desktop"
+pamac install signal-desktop
 
 #docker 
 echo "Installing docker"
