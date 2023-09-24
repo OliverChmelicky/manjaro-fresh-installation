@@ -5,15 +5,8 @@ sudo pacman -Syy
 echo "Installing base-devel package"
 sudo pacman -S --needed base-devel
 
-# installing yay package manager for AUR packages
-echo "Clonning yay"
-git clone https://aur.archlinux.org/yay.git
-cd yay
-echo "Makepkg installation for yay"
-makepkg -si #ERROR: You do not have write permission for the directory $BUILDDIR (/home/olo/yay).
-cd ~
-echo "Removing yay"
-sudo rm -r yay
+sudo pacman -S guake
+sudo pacman -S zsh
 
 echo "Installing jetbrains-toolbox"
 yay -S jetbrains-toolbox
