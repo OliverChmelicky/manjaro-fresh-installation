@@ -46,11 +46,10 @@ sudo chmod +x /usr/local/bin/docker-compose
 echo "Creating simplink for docker-compose"
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
-sudo pacman -Syu python-pip
+#sudo pacman -Syu python-pip
 
-#guake
-sudo pacman -S guake # and set it up for shortcut
-sudo pacman -S wine
-sudo pacman -S wine-mono
+#sudo pacman -S wine
+#sudo pacman -S wine-mono
 
-pamac install pdfarranger
+sudo pacman -S pdfarranger
+sudo pacman -S libreoffice-still
