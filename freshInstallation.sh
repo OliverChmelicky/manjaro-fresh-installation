@@ -51,5 +51,14 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 #sudo pacman -S wine
 #sudo pacman -S wine-mono
 
+#k8s
+sudo pacman -S kubectl
+curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.20.0/kind-linux-amd64
+chmod +x ./kind
+sudo mv ./kind /usr/local/bin/kind
+sudo pacman -S k9s
+
+
+
 sudo pacman -S pdfarranger
 sudo pacman -S libreoffice-still
