@@ -62,3 +62,4 @@ sudo pacman -S k9s
 
 sudo pacman -S pdfarranger
 sudo pacman -S libreoffice-still
+sudo pacman -S signal-desktop
