@@ -5,6 +5,20 @@
 ## Configure ZSH
 https://medium.com/tech-notes-and-geek-stuff/install-zsh-on-arch-linux-manjaro-and-make-it-your-default-shell-b0098b756a7a
 
+## Guake Autostart
+Tweaks autostart didn't work well. This method worked but maybe there is a better option.
+/etc/xdg/autostart
+```create file```
+```
+[Desktop Entry]
+Type=Application
+Exec=guake        
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_CA]=Guake Autostart    
+Name=Guake Autostart
+```
 
 TODO install Golang
 
