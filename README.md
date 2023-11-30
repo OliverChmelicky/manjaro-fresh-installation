@@ -5,7 +5,8 @@
 ## Configure ZSH
 https://medium.com/tech-notes-and-geek-stuff/install-zsh-on-arch-linux-manjaro-and-make-it-your-default-shell-b0098b756a7a
 
-## Guake Autostart
+## Guake
+### Guake Autostart
 Tweaks autostart didn't work well. This method worked but maybe there is a better option.
 /etc/xdg/autostart
 ```create file```
@@ -19,6 +20,11 @@ X-GNOME-Autostart-enabled=true
 Name[en_CA]=Guake Autostart    
 Name=Guake Autostart
 ```
+
+### Guake hotkey
+Guake hotkey can be set in Guake preferences. But it does not work for windows using wayland app the binding is not recognized. For this reason there has to be a new custom binding greated with the command `guake -t`.
+
+
 
 TODO install Golang
 
