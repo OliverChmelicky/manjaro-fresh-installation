@@ -25,22 +25,20 @@ Name=Guake Autostart
 Guake hotkey can be set in Guake preferences. But it does not work for windows using wayland app the binding is not recognized. For this reason there has to be a new custom binding greated with the command `guake -t`.
 
 
-
-TODO install Golang
-
-Testing extensions if they are good:
-Removable drive menu, clipboard indicator 
-
-
-NetSpeed:
-TODO - find pre manjaro
-
-
 Download "Extensions" and there you can click on extensions which to turn on.
 [removable Drive menu, auto move windows]
 
 Shortcuts: 
-ctr+alt+t - terminal
-ctrl+b - chromium/brave
-super + f - Launchers->home folder
+ctrl+g - "guake -t"
+ctrl+b - "chromium"
+super + f - "nautilus" Launchers->home folder  command 
 super + q - close window (automatically)
+
+
+
+TODO install Golang
+Testing extensions if they are good:
+Removable drive menu, clipboard indicator 
+
+NetSpeed:
+TODO - find pre manjaro
