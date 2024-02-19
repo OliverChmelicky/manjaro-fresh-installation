@@ -4,6 +4,15 @@
 
 ## Configure ZSH
 https://medium.com/tech-notes-and-geek-stuff/install-zsh-on-arch-linux-manjaro-and-make-it-your-default-shell-b0098b756a7a
+plugins=(
+git
+history-substring-search
+colored-man-pages
+zsh-autosuggestions
+zsh-syntax-highlighting
+fzf-zsh-plugin
+)
+
 
 ## Guake
 ### Guake Autostart
